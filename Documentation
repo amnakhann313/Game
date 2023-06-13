@@ -1,0 +1,26 @@
+# Project Description: "The Quest for the Crystal Kingdom"
+
+## Overview
+"The Quest for the Crystal Kingdom" is an exciting text-based adventure game where the player embarks on a perilous journey to retrieve a legendary crystal from a dangerous and enchanted forest. The game requires the player to navigate through the forest, facing enemies, obstacles, and collecting rewards along the way. The project aims to implement various algorithms, such as AVL tree, Floyd's algorithm, Prim's algorithm, Kruskal's algorithm, and Dijkstra's algorithm, to enhance the gameplay and provide a challenging and immersive experience.
+
+## Features
+1. **AVL Tree Inventory**: The player's inventory of item scores will be stored in an AVL tree data structure. The AVL tree allows the player to efficiently add and remove item scores based on the rewards obtained during the game. Each item in the inventory will have a randomly generated ID, reward score, and count to avoid duplicate nodes.
+
+2. **Floyd's Algorithm**: Floyd's algorithm will be implemented to calculate the shortest path between any two areas in the forest. The algorithm takes into account the locations of enemies and obstacles, providing an optimized path for the player to navigate through.
+
+3. **Prim's Algorithm**: Prim's algorithm will be utilized to find the minimum spanning tree of the forest. The algorithm considers the locations of enemies and obstacles, enabling the player to explore the forest efficiently and uncover hidden paths.
+
+4. **Kruskal's Algorithm**: Kruskal's algorithm will be employed to find another minimum spanning tree of the forest. Similar to Prim's algorithm, Kruskal's algorithm accounts for the locations of enemies and obstacles, offering an alternative approach to exploring the forest and discovering optimal routes.
+
+5. **Dijkstra's Algorithm**: Dijkstra's algorithm will be implemented to find the shortest path from the player's current location to the crystal. The algorithm takes into account the locations of enemies and obstacles, allowing the player to strategize and plan their path effectively.
+
+6. **Game Map**: The game map consists of various entities represented by alphabets and special characters. Clear paths, obstacles, rewards (jewels, potions, weapons), enemies (werewolves, goblins, dragons), death points, and the crystal (goal point) are all part of the game map. The player must navigate through these entities, making strategic decisions based on their effects and rewards.
+
+## Expected Outcomes
+1. Calculation of the shortest path between any two areas in the forest, considering obstacles and enemies.
+2. Determination of the shortest path from the player's current location to the crystal, considering obstacles and enemies.
+3. Generation of the minimum spanning tree of the forest using both Prim's and Kruskal's algorithms, considering obstacles and enemies.
+4. Dynamic tracking of the player's score, incrementing or decrementing based on rewards collected or lost during gameplay.
+5. User-friendly menu with features such as finding the shortest path using default or custom locations (coordinates), and generating the minimum spanning tree using Prim's or Kruskal's algorithms.
+
+"The Quest for the Crystal Kingdom" is a challenging and immersive game that combines adventure, strategy, and algorithmic concepts. By implementing various algorithms, the project enhances the gameplay experience and offers the player a thrilling journey through the enchanted forest in search of the legendary crystal.
